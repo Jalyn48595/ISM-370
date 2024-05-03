@@ -1,0 +1,17 @@
+This dataset includes bike share data for a firm in Washington, D.C. for 2011 and 2012.
+The columns and variables are as follows:
+instant: the id number for each hour in the dataset.
+dteday: the full date of the day the hour was recorded (mm/dd/yyy).
+season: the season of the year. (1=winter, 2=spring, 3=summer, 4=fall)
+yr: the yr identifier for each record. (0=2011, 1=2012)
+mnth: the month for each record (1=January, etc.)
+hr: the hour for each record. (0=12am-12:59am, 1=1am-1:59am, etc.)
+holiday: whether the day of the record is a holiday or not. (0=no, 1=yes)
+weekday: an identifier of the day of the week for each record. (0=Sunday, 1=Monday, etc.)
+temp: a standardized rating of the temperature. (range is from 0 to 1, with 0 representing the coldest temperature and 1 representing the hottest temperature in the dataset)
+hum: a standardized rating of the humidity. (range is from 0 to 1, with 0 representing the least humid and 1 representing the most humid in the dataset)
+windspeed: a standardized rating of the windspeed. (range is from 0 to 1, with 0 representing the lowest windspeed and 1 representing the highest windspeed in the dataset)
+casual: the number of unregistered or non-account-holding riders who used a bike during the recorded hour.
+registered: the number of registered or account-holding riders who used a bike during the recorded hour.
+count: the number of both casual and resistered riders who used a bike during the recorded hour.
+Note: If no casual or registered riders used a bike in a given hour, that hour was removed from the dataset.
