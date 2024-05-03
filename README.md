@@ -1,2 +1,3 @@
 # ISM-370
-Course work for ISM 370
+Description: Network configurations, communications, resource distribution and sharing, systems architecture, management utilities, regulatory environment, and security. Case studies may be used.
+
